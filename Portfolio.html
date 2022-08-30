@@ -1,0 +1,140 @@
+<!--Assignment #1:  
+Create your own portfolio using HTML only. 
+The website should contain a (dumb - non functional) form where people can reach out to you and ask you questions.
+Include lists, paragraphs, images, etc.
+Include a form with dropdown, inputs, text area, etc (no linking)
+Your page should include a link to an online website (i.e: google, youtube, etc.).
+Please include meaningful content and no "Lorem Ipsum"-->
+<html>
+    <head>
+        <link rel = "icon" href="images/logo.png" type="image/icon type">
+        <title> Souraya.Portfolio </title>
+    </head>
+    <body>
+        <img src = "images/Fibonacci.jpg" width = 100% >
+        <div>
+            <h1 align="center"> Souraya Abdel Kader </h1>
+            <h3 align="center">  <i> Math teacher and FSW newbie </i> </h3>
+        </div>
+        <hr>
+        <div>
+            <h2 align ="center"> About Me </h2>
+            <p align = "center">
+                Hello ! I'm a dedicated math teacher who holds a bachelor degree in Mathematics from the Lebanese University. 
+                After graduating, I statrted my career as a MAth teacher, and worked three years in private schools, teaching elementary classes. 
+                Aside, I've been working as a tutor for 4 years.
+                This year, I came back to the Lebanese University to pursuie my master's in Education, specializing in teaching math for high school.  
+                <br> Plus, I'm training to be a web developper !
+            </p>
+        </div>
+        <hr>
+        <br>        
+        <table>
+            <tr>
+                <th width = 300 align = "center"><h2> Contact information </h2></th>
+                <th><h2> Work Experience </h2></th>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <img src = "images/R.jpg" height = 20 width = 20> 
+                        <strong> Adress: </strong> <br> Tripoli, Lebanon <br><br>
+                        <img src = "images/mobile.jpg" height = 20 width = 20> 
+                        <strong> Mobile number: </strong> <br> ## ### ### <br><br>
+                        <img src = "images/phone.jpg" height = 15 width = 15> 
+                        <strong> Phone: </strong> <br> ## ### ### <br><br> 
+                        <img src = "images/mail.jpg" height = 15 width = 15> 
+                        <strong> Email: </strong> <br> <a href="mailto: sourayaak96@gmail.com"> sourayaak96@gmail.com</a> <br><br>
+                        <img src = "images/linkedin.jpg" height = 15 width = 15> 
+                         <a href= " https://www.linkedin.com/in/souraya-abdel-kader/"> <strong> LinkdIn Profile </strong></a> <br>
+                    </p>
+                </td>
+                <td>
+                    <dl>
+                        <dt> <strong> Math Teacher </strong></dt>
+                        <dd> <em> Al Nour Islamic School, Tripoli </em> <br> 2019 - 2021 
+                            <ul> 
+                                <li>   Kept accurate and current attendance records and assignment sheets to
+                                    maintain file compliance. </li>
+                                <li> Provided meaningful math instruction to improve math skills of children.</li>
+                                <li> Prepared and implemented lesson plans covering required course topics. </li>
+                            </ul>
+                        </dd>
+                        <dt> <strong> Math Tutor </strong></dt>
+                        <dd> <em> SGPTC center, Tripoli </em> <br> 2017 - 2021 
+                            <ul> 
+                                <li>   Motivated students towards learning and studying to build self-confidence and reduce anxiety of failure in Math. </li>
+                                <li>  Explained Math concepts in caring and encouraging environment to help kids thrive and learn. </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </td>
+            </tr>
+            <tr>
+                <td> <br> <h2 align = "center"> Interests </h2></td>
+                <td> <br> <h2 align = "center"> Education </h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src = "images/book.jpg" height = 20 weight = 20> Reading <br><br>
+                    <img src = "images/drawing.jpg" height = 20 weight = 20> Drawing <br><br>
+                    <img src = "images/crafts.jpg" height = 20 weight = 20> Crafts <br><br>
+                    <img src = "images/chess.jpg" height = 20 weight = 20> Chess 
+                </td>
+                <td>
+                    <dl>
+                        <dt> <strong> Master 1: Teaching Math for high school </strong> </dt>
+                        <dd> <em>Lebanese University, Faculty of Education, Beirut </em> <br> 2021- 2022 <br> <a href="https://sites.google.com/view/souraya-portfolio/page-dacceuil"> University Portfolio </a> </dd>
+                        <br>
+                        <dt> <strong> Bachelor of Mathematics: Pure Mathematics </strong></dt>
+                        <dd> <em> Lebanese University, Faculty of Science, Tripoli </em> <br>
+                            2014-2018</dd>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tb>
+                <th width="60%">
+                    <img src="images/message.png" width = 30%>
+                    <h2> Contact Me </h2>
+                    <p> 
+                    Feel free to contact me and ask me any questions via the mail listed above or leave a message here. <br>
+                    If you are looking for private Math sessions, you can book an appointment <a href="https://calendly.com/souraya-abdel-kader/30min"> here </a>      
+                    </p> 
+                </th>
+                <th width = 30%>
+                    <form align ="left">
+                        <label> First Name: </label>
+                        <input type="text"> <br> <br>
+                        <label> Last Name: </label>
+                        <input type="text"> <br> <br>
+                        <label> Gender: </label>
+                        <input type="radio"> <label> Male </label> 
+                        <input type="radio"> <label for="html"> Female 
+                        </label>
+                        <br><br>
+                        <label> Address: </label>
+                        <select>
+                            <option value=""> -- Select location -- </option>
+                            <option value=""> Akkar </option>
+                            <option value=""> Tripoli </option>
+                            <option value=""> Beirut </option>
+                            <option value=""> Saida </option>
+                            <option value=""> Sour </option>
+                            <option value=""> Bekaa </option>
+                        </select>
+                        <form align = "left">
+                            <h3> Message: </h3>
+                            <textarea rows="10" cols="50"> Enter your text here
+                            </textarea>
+                            <br> <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </form>
+                </th>
+            </tb>
+        </table>
+    </body>
+</html>
